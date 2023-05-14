@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="690b1b489ade42ed939f1536b76a1cac" Name="Diagram1" ZoomLevel="47">
+        <EntityTypeShape EntityType="EditorialLEAModel.Cliente" Width="1.5" PointX="0.75" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="EditorialLEAModel.Cobrador" Width="1.5" PointX="8.75" PointY="2.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="EditorialLEAModel.ComprobantePago" Width="1.5" PointX="11" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="EditorialLEAModel.Contrato" Width="1.5" PointX="3" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EditorialLEAModel.Estudiante" Width="1.5" PointX="3.75" PointY="14.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="EditorialLEAModel.InstitucionEducativa" Width="1.5" PointX="1.5" PointY="14.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="EditorialLEAModel.Libro" Width="1.5" PointX="3" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="EditorialLEAModel.Proveedor" Width="1.5" PointX="3" PointY="18.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="EditorialLEAModel.ReferenciaPago" Width="1.5" PointX="3" PointY="11.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="EditorialLEAModel.Trabajador" Width="1.5" PointX="0.75" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="EditorialLEAModel.ClienteEstudiante" Width="1.5" PointX="6" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EditorialLEAModel.DetalleContrato" Width="1.5" PointX="5.25" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EditorialLEAModel.ProveedorLibro" Width="1.5" PointX="5.25" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EditorialLEAModel.Secretario" Width="1.5" PointX="3" PointY="22.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="EditorialLEAModel.InformeCliente" Width="1.5" PointX="8.75" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="EditorialLEAModel.InformeContrato" Width="1.5" PointX="5.75" PointY="10.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="EditorialLEAModel.InformePago" Width="1.5" PointX="10.75" PointY="7.375" IsExpanded="true" />
+        <AssociationConnector Association="EditorialLEAModel.FK_Cliente" ManuallyRouted="false" />
+        <AssociationConnector Association="EditorialLEAModel.FK_ClienteEstudiante_C" ManuallyRouted="false" />
+        <AssociationConnector Association="EditorialLEAModel.FK_ComprobantePago_idCobrador" ManuallyRouted="false" />
+        <AssociationConnector Association="EditorialLEAModel.FK_DetalleContrato_Contrato" ManuallyRouted="false" />
+        <AssociationConnector Association="EditorialLEAModel.FK_Trabajador" ManuallyRouted="false" />
+        <AssociationConnector Association="EditorialLEAModel.FK_ClienteEstudiante_E" ManuallyRouted="false" />
+        <AssociationConnector Association="EditorialLEAModel.FK_Estudiante_InstitucionEducativa" ManuallyRouted="false" />
+        <AssociationConnector Association="EditorialLEAModel.FK_DetalleContrato_Libro" ManuallyRouted="false" />
+        <AssociationConnector Association="EditorialLEAModel.FK_Libro" ManuallyRouted="false" />
+        <AssociationConnector Association="EditorialLEAModel.FK_Proveedor" ManuallyRouted="false" />
+        <AssociationConnector Association="EditorialLEAModel.FK_Secretario_Trabajador" ManuallyRouted="false" />
+        <AssociationConnector Association="EditorialLEAModel.ClienteReferencia" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
